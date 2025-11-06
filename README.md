@@ -50,3 +50,41 @@ source venv/bin/activate   # (or venv\Scripts\activate on Windows)
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+
+🔑 Environment Variables
+
+Create a .env file in the root directory:
+OPENAI_API_KEY=your_openai_key_here
+# or alternatives:
+OPENROUTER_API_KEY=your_openrouter_key_here
+GROQ_API_KEY=your_groq_key_here
+
+
+▶️ Run the Application
+streamlit run app.py
+
+
+🧪 Sample Output
+The dashboard displays:
+Task delegation sequence between agents
+Real-time decision logs
+Reasoning summaries
+Memory embeddings and context reuse
+
+
+📈 Future Enhancements
+Integration with external data APIs for live intelligence
+Advanced memory pruning and context scoring
+Voice-based task inputs for multimodal orchestration
+Integration with workflow automation tools (Zapier, Airflow)
+
+
+👩‍💻 Author
+Guru Preethika Sayala
+
+🏁 License
+This project is open-source and available under the MIT License.
+
+
